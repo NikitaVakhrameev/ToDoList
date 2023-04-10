@@ -1,0 +1,236 @@
+.main {
+  display: flex;
+  
+}
+
+.form__textarea {
+  position: sticky;
+  margin-top: 16px;
+  margin-left: 30px;
+  width: 600px;
+  height: 32px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  background: #F4F4F4;
+  color: #999999;
+  background-image: url(https://github.com/NikitaVakhrameev/Quality-Tools/blob/main/pictures/%D0%BF%D0%BB%D1%8E%D1%81%D0%B8%D0%BA.jpg?raw=true);
+  background-position: top 7px left 12px;
+  background-size: 18px 18px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  
+}
+
+.taskList {
+  margin-top: 20px;
+  font-size: 24px;
+  margin-left: 30px;
+  width: 640px;
+  
+}
+
+.taskElem {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 640px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 50px;
+}
+
+.taskElem_after {
+ display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 640px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 50px;
+}
+
+.taskElem:hover {
+   background: #F4F4F4;
+}
+
+.taskList__item {
+  margin-left: 10px;
+  font-size: 16px;
+  width: 280px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.completedTask {
+  text-decoration: line-through;
+}
+
+.checkbox__item {
+  margin-left: 10px;
+  border-radius: 50%;
+  border: 1px solid #B9B8C3;
+  background-color: #f72414;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+
+}
+
+.dateOpened {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 330px;
+  height: 30px;
+  width: 150px;
+}
+
+.dateClosed {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  position: absolute;
+  margin-left: 500px;
+ height: 30px;
+  width: 150px;
+}
+
+.dateClosed__disabled {
+  display: none;
+}
+
+.edit {
+  width: 80px;
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 30px;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  color: #3c4043;
+  cursor: pointer;
+
+}
+
+.edit:hover{
+  background: #F6F9FE;
+  color: #174ea6;
+
+}
+
+.buttonConfig__disabled {
+  display: none;
+}
+
+.buttonConfig__active {
+  position: absolute;
+  border: none;
+  border-radius: 8px;
+  background: yellow;
+  cursor: pointer;
+  font-size: 8px;
+  margin-left: 600px;
+  margin-top: -27px;
+  width: 30px;
+  height: 10px; 
+  
+}
+
+.config__window {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  border-radius: 8px;
+  margin-left: 600px;
+  margin-top: -80px;
+  background: white;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.config__window-disabled {
+  display:none;
+}
+
+.editShort {
+  height: 20px;
+  width: 40px;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-image: url(https://github.com/NikitaVakhrameev/Quality-Tools/blob/main/pictures/settings.png?raw=true);
+  background-position: top 0px left 0px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.editShort:hover {
+  cursor: pointer;
+  
+}
+
+.removeShort {
+  height: 20px;
+  width: 60px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 10px;
+   background-image: url(https://github.com/NikitaVakhrameev/Quality-Tools/blob/main/pictures/trash.png?raw=true);
+  background-position: top 0px left 0px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.removeShort:hover {
+  cursor: pointer;
+}
+
+.crossed {
+  position: absolute;
+  top: 5px;
+  left: 77px;
+  height: 20px;
+  width: 20px;
+  background-image: url(https://github.com/NikitaVakhrameev/Quality-Tools/blob/main/pictures/cross.png?raw=true);
+  background-position: top 0px left 0px;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+}
+
+.crossed:hover {
+  cursor: pointer;
+}
+
+.modalWindow__disabled {
+  display: none;
+}
+
+.modalWindow {
+  background: white;
+  position: absolute;
+  left: 500px;
+  top: 60px;
+  z-index: 1;
+  border: solid 1px black;
+  width: 600px;
+  height: 180px;
+}
+
+.modalWindow__description {
+  display: flex;
+  align-items: center;
+  border: solid 1px black;
+}
+
+.description__name {
+  position: absolute;
+  margin-left: 120px;
+}
